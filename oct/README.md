@@ -87,7 +87,6 @@ _Minio itself is not directly a part of your tech stack; instead, it's an extern
 ### Project Flow
 The First thing is to create 2 folders named *client* and *server* The folder structure is as follows.
 
-![WhatsApp Image 2023-10-23 at 21 20 14_58fd0a6b](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/24f1cd62-1ed8-4895-9e90-6108fbc0c03e)
 
 For frontend we have used *React.js*
 Initially navigate to the frontend folder and open the terminal using``` ctrl + shift + ` ``` in vs code or click on new terminal Type cd client .It will navigate to the folder. Then type ``` npm install ```  The necessary files and node modules will be installed.
@@ -96,11 +95,8 @@ We run the frontend part using the command ``` npm start ```
 
 This will be the webpage that has to be displayed on running the command and allowed to select or upload the documents,videos,images.
 
-![WhatsApp Image 2023-10-21 at 14 45 12_48db0754](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/b2d69cf4-ba31-4480-990e-bfb8c744bfe2)
+![image](https://github.com/user-attachments/assets/6457ce8a-f002-4f1d-995c-accf8afc614f)
 
-After uploading the any of input by the user like video that will be stored in the minio server and visible in the output page as follows:
-
-![WhatsApp Image 2023-10-21 at 14 45 13_a0f82c7a](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/ec1ade3b-4662-4b8e-9ff0-f71ff75da106)
 
 For backend we have used *Node.js*  and *python*
 - Type cd server .It will navigate to the folder then run the backend part using command ``` python app.py ``` 
@@ -116,7 +112,7 @@ For backend we have used *Node.js*  and *python*
 
 5. Minio's architecture allows for easy scalability, redundancy, and high availability in video storage and retrieval operations.
    
-![WhatsApp Image 2023-10-21 at 14 45 13_a26b9cb0](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/0bc66869-c0d5-4d3e-a1b7-df1f41bdb409)
+
 
 ### Conclusion
 In conclusion, this project has been a valuable exploration of object storage systems and their real-world applications. We've not only gained a comprehensive understanding of what object storage is and how it differs from traditional file systems, but we've also examined potential alternatives. The hands-on experience of setting up Minio locally and integrating it with our tech stack has provided valuable insights into the power of object storage in modern application development. This project has equipped us with the skills to harness Minio's capabilities for efficient file management, a knowledge that can be applied to a variety of real-world scenarios.
